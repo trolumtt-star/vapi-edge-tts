@@ -7,7 +7,7 @@ app = FastAPI()
 
 # Kadın sesi için: "tr-TR-EmelNeural"
 # Erkek sesi için: "tr-TR-AhmetNeural"
-VOICE = "tr-TR-EmelNeural"
+VOICE = "tr-TR-AhmetNeural"
 
 @app.post("/synthesize")
 async def synthesize(request: Request):
